@@ -6,3 +6,7 @@ h1,h2 {
 font-family: serif;
 
 }
+
+#menu a {
+    font-weight: bold; 
+}
