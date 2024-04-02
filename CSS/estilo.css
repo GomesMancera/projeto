@@ -1,0 +1,20 @@
+header {
+    background-color: blue;
+}
+
+h1,h2 {
+font-family: serif;
+
+}
+
+#menu a {
+    font-weight: bold; 
+}
+
+.container {
+    padding: 20px; 
+}
+
+#conteudo {
+    line-height: 1.5; 
+}
