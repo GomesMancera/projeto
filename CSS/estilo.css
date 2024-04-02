@@ -1,38 +1,84 @@
+
 header {
     background-color: blue;
 }
 
-h1,h2 {
-font-family: serif;
 
+h1, h2 {
+    font-family: serif;
 }
+
 
 #menu a {
-    font-weight: bold; 
+    font-weight: bold;
 }
+
 
 .container {
-    padding: 20px; 
+    padding: 20px;
 }
 
+
 #conteudo {
-    line-height: 1.5; 
+    line-height: 1.5;
 }
+
 
 form {
     border: 1px solid gray;
-    padding: 10px; 
+    padding: 10px;
 }
+
 
 p {
-    color: green; 
+    color: green;
 }
 
+
 form button {
-    background-color: blue; 
+    background-color: blue;
     color: white;
 }
 
+
 footer {
-    border-top: 2px solid red; 
+    border-top: 2px solid red;
+}
+
+
+
+#menu ul {
+    display: flex; 
+    justify-content: center;
+}
+
+#menu ul li {
+    margin: 0 10px; 
+}
+
+#menu ul li img {
+    width: 20px;
+    height: 20px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+}
+
+
+#menu ul li a {
+    display: inline-block; 
+    text-decoration: none; 
+    color: black; 
+    font-weight: bold; 
+    padding: 5px 10px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    transition: all 0.3s ease; 
+}
+
+#menu ul li a:hover {
+    background-color: lightgray; 
+}
+
+footer::after {
+    content: "";
+    display: block;
+    border-top: 2px solid red;
 }
